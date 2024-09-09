@@ -33,3 +33,10 @@ ul {
     padding-left: 100px;
 }
 
+a {
+    padding-left: 20px;
+}
+
+a:hover {
+    color:blue;
+}
