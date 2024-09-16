@@ -41,6 +41,8 @@ a:hover {
     color:blue;
 }
 
+/****** liste du tableau ******/
+
 table {
     border-collapse: collapse;
     width: 400px;
@@ -70,3 +72,19 @@ th{
     background-color: #FF715B;
     color: #FFFFFF;
 }
+
+/****** formulaire css ******/
+
+h1{
+    text-align: center;
+}
+
+section#message{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
