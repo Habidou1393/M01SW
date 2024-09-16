@@ -40,3 +40,33 @@ a {
 a:hover {
     color:blue;
 }
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+    margin: 50px;
+}
+
+td{
+    border: 1px;
+    border: solid 1px;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: #DDDDDD;
+}
+
+th{
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-bottom: 20px;
+    padding-right: 8px;
+    text-align: left;
+    background-color: #FF715B;
+    color: #FFFFFF;
+}
