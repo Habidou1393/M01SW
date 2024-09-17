@@ -41,10 +41,13 @@ a:hover {
     color:blue;
 }
 
+/****** liste du tableau ******/
+
 table {
     border-collapse: collapse;
     width: 400px;
-    margin: 50px;
+    margin: 50px auto;
+    text-align: center;
 }
 
 td{
@@ -69,4 +72,57 @@ th{
     text-align: left;
     background-color: #FF715B;
     color: #FFFFFF;
+    text-align: center;
 }
+
+/****** formulaire css ******/
+
+h1{
+    text-align: center;
+}
+
+form{
+    box-sizing: border-box;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+label {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    color: #4C5454;
+    margin-top: 30px;
+}
+
+select {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #FF715B;
+    border: 1px;
+    border: solid;
+    border-color: #4C5454;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    
+}
+
+input{
+    margin-top: 30px;
+    background-color: #FF715B;
+    width: 100%; 
+    border-radius: 5px;
+}
+
+
+
