@@ -6,24 +6,62 @@
 </head>
 <body>
     <section id="message">
-        <form action="message.html">  
+        <form method="post" action="rest.php">  
             <h1 id="message_1">Envoie d'un message</h1>
-                <label for="choix_ afficheur"> Selectionner une classe :</label>
-                <select name="liste_classe" id="classe">
-                        <option value="172.20.21.230">CP A</option>
-                        <option value="172.20.21.231">CP B</option>
-                        <option value="172.20.21.232">CE1 A</option>
-                        <option value="172.20.21.233">CE1 B</option>
-                        <option value="172.20.21.234">CE2 A</option>
-                        <option value="172.20.21.235">CE2 B</option>
-                        <option value="172.20.21.236">CM1 A</option>
-                        <option value="172.20.21.237">CM1 B</option>
-                        <option value="172.20.21.238">CM2 A</option>
-                        <option value="172.20.21.239">CM2 B</option>
+                <label id="Classe" for="choix_ afficheur"> Selectionner une classe :</label>
+                <select name="ip_journal" id="classe">
+                        <option value="172.20.21.158">CP A</option>
+                        <option value="">CP B</option>
+                        <option value="">CE1 A</option>
+                        <option value="">CE1 B</option>
+                        <option value="">CE2 A</option>
+                        <option value="">CE2 B</option>
+                        <option value="">CM1 A</option>
+                        <option value="">CM1 B</option>
+                        <option value="">CM2 A</option>
+                        <option value="">CM2 B</option>
                 </select>
-                <label for="message_à_envoyer : "> message à envoyer : </label>
-                <input type="text" name="message" id="classe_select">
-                <input type="submit" value="envoyer">
+                    <label id="effetaffichage" for="choix d'afficheur "> Apparition du message :  </label>
+                <select name="effetaffichage" id="effetaffichage">
+                        <option value="MA">Normal</option>
+                        <option value="FB">Blinking</option>
+                </select>
+                    <label id="effetapparition" for="choix d'afficheur "> Effet du message :  </label>
+                <select name="effetapparition" id="effetapparition">
+                        <option value="FA">Immediate</option>
+                        <option value="FB">Xopen</option>
+                        <option value="FC">Curtain UP</option>
+                        <option value="FE">Scroll Left</option>
+                        <option value="FF">Scroll Right</option>
+                        <option value="FG">Vopen</option>
+                        <option value="FH">Vclose</option>
+                        <option value="FI">Scroll Up</option>
+                        <option value="FJ">Scroll Down</option>
+                        <option value="FK">Hold</option>
+                </select>
+                    <label id="effetdisparition" for="choix d'afficheur "> effet de disparition :  </label>
+                <select name="effetdisparition" id="effetdisparition">
+                        <option value="FA">Immediate</option>
+                        <option value="FB">Xopen</option>
+                        <option value="FC">Curtain UP</option>
+                        <option value="FE">Scroll Left</option>
+                        <option value="FF">Scroll Right</option>
+                        <option value="FG">Vopen</option>
+                        <option value="FH">Vclose</option>
+                        <option value="FI">Scroll Up</option>
+                        <option value="FJ">Scroll Down</option>
+                        <option value="FK">Hold</option>
+                </select>
+                    <label id="dureeaffichage" for="choix d'afficheur "> Durée d'Affichage :</label>
+                <select name="dureeaffichage" id="dureeaffichage">
+                    <option value="WA">0,5 sec</option>
+                    <option value="WB">1 sec </option>
+                    <option value="WC">2 sev</option>
+                    <option value="WD">3 sec</option>
+                </select>
+                    <label for="message-a-envoyer "> message à envoyer : </label>
+                    <input type="text" name="texte" id="classe_select">
+                    <input type="submit" name="submit_SW06" value="message">
         </form>
     </section>
 </body>
