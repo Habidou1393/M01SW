@@ -106,10 +106,10 @@ label {
 select {
     text-align: center;
     box-sizing: border-box;
-    background-color: #FF715B;
+    background-color: #4df55b38;
     border: 1px;
     border: solid;
-    border-color: #4C5454;
+    border-color: #293131;
     border-radius: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -120,8 +120,7 @@ select {
 }
 
 input{
-    margin-top: 30px;
-    background-color: #FF715B;
+    background-color: #4df55b38;
     width: 100%; 
     border-radius: 5px;
     padding-top: 15px;
@@ -129,8 +128,10 @@ input{
     padding-left: 10px;
     padding-right: 10px;
     box-sizing: border-box;
+    margin-top: 20px;
     
 }
+
 
 
 
